@@ -116,3 +116,68 @@
 #tercera-foto >p,h1,span{
  padding: 5px;
 }
+
+#tercero{
+    height: 300px;
+    background-image: url("images/b2.jpg");
+    background-size: 100% 100%;
+  
+}
+#tercero > #contenedor{
+    color: white;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+#elemento-1{
+    padding: 20px;
+}
+#elemento-1 > i{
+   font-size: 30px;
+}
+#elemento-2 > i{
+   font-size: 30px;
+}
+#elemento-3 > i{
+   font-size: 30px;
+}
+#elemento-4 > i{
+   font-size: 30px;
+}
+#cuarto > h1{
+    color: red;
+    text-align: center;
+}
+#cuarto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+img{
+    width: 100%;
+}
+#cuarto > #contenedor-fuera>#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+}
+#cuarto > #contenedor >div{
+   width: 150px;
+   text-align: center;
+}
+#cuarto >#contenedor>div>h1 {
+    font-size:10px;
+    padding: 10px;
+}
+#cuarto p{
+    padding: 10px;
+
+}
+#cuarto i{
+    color: red;
+    font-size: 45px;
+}
