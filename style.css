@@ -181,3 +181,34 @@ img{
     color: red;
     font-size: 45px;
 }
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer > #contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#tecno{
+    font-size: 40px
+}
+#rojo{
+    color: red;
+}
+#Subtitulo{
+    font-size: 8px;
+    font-weight: bold;
+}
+#descripcion{
+    font-weight: bold;
+    font-size: 14px;
+}
+#segundo{
+    padding: 30px;
+}
+#segundo > #contenedor>div{
+    margin: 10px;
+}
