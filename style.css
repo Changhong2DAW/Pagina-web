@@ -57,3 +57,62 @@
     
     background: rgba(0,0,0,0.3);
   }
+  #uno{
+    background-image: url("images/fondom.jpg");
+      height: 750px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#contenedor{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+#primero > #contenedor{
+  margin-top: 30px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+#primero{
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ies{
+  color: red;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+
+}
+#segundo > #contenedor{
+  text-align: left;
+  padding: 5px;
+}
+#primera-foto{
+  border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+#primera-foto >p,h1,span{
+ padding: 5px;
+}
+#segunda-foto{
+  border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+#segunda-foto >p,h1,span{
+ padding: 5px;
+}
+#tercera-foto{
+  border: 1px solid rgb(180, 180, 180);
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+#tercera-foto >p,h1,span{
+ padding: 5px;
+}
