@@ -1,0 +1,1 @@
+Este archivo sirve para distinguir ambas ramas ya que creare un nuevo commit.
