@@ -212,3 +212,46 @@ footer > #contenedor{
 #segundo > #contenedor>div{
     margin: 10px;
 }
+@media only screen and (min-width:768px){
+    .menu {
+      transform: translatex(0%);
+      transition:none;
+      top:0;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items:center;
+      background-color: rgba(0,0,0,0.2);
+    }
+    #icono{
+    display: none;
+    }
+    #uno{
+        background-image: url("images/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #segundo >#contenedor{
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 50%
+    }
+    #segundo{
+        display: flex;
+        justify-content: center;
+    }
+    #tercero {
+        height: 220px;
+    }
+    #tercero > #contenedor{
+      color: white;
+      display: grid;
+      padding: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      text-align: center;
+  }
+  
+  footer > #contenedor> div,h1{
+  padding: 10px;
+  }
+  
+  }
